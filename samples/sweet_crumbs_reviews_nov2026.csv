@@ -1,0 +1,230 @@
+review_id,date,platform,rating,review_text
+SC-2001,2026-11-02,Zomato,1,செயலியில் பணம் இரண்டு முறை எடுக்கப்பட்டது
+SC-2002,2026-11-02,Google,5,இங்கே காபி எப்போதும் புதியதாக இருக்கும்
+SC-2003,2026-11-02,Google,2,The chocolate truffle cake was burnt at the bottom
+SC-2004,2026-11-02,Swiggy,1,காபி பழையதாக இருந்தது
+SC-2005,2026-11-02,Google,2,Coffee leaked all over the bag
+SC-2006,2026-11-02,Swiggy,2,டோனட் பழையதாக இருந்தது
+SC-2007,2026-11-02,Swiggy,1,Coffee leaked all over the bag
+SC-2008,2026-11-02,Swiggy,1,"Cream konjam pulichu pochu, saapda mudiyala"
+SC-2009,2026-11-02,Google,2,"Ordered at 7pm, delivered at 8:30. Coffee was cold"
+SC-2010,2026-11-02,Google,4,டெலிவரி மிக வேகமாக வந்தது
+SC-2011,2026-11-02,Swiggy,5,"Delivery romba fast, 15 mins la vandhuchu"
+SC-2012,2026-11-02,Zomato,5,"Price reasonable, quality kooda nalla irukku"
+SC-2013,2026-11-02,Swiggy,5,Loved the eco-friendly paper bags
+SC-2014,2026-11-03,Google,3,Taste was fine but I expected more cream in the black forest cake
+SC-2015,2026-11-03,Google,2,"Delivery romba late, cake melt aayiduchu"
+SC-2016,2026-11-03,Google,1,"I want a full refund, the cake I received had fungus on it"
+SC-2017,2026-11-03,Swiggy,2,"Birthday cake arrived 1 hour late, party was already over"
+SC-2018,2026-11-03,Amazon,2,Rider called 4 times for directions and still came late
+SC-2019,2026-11-03,Swiggy,5,Loved the eco-friendly paper bags
+SC-2020,2026-11-03,Google,1,"Manager shouted at my wife in front of everyone, very insulting behaviour"
+SC-2021,2026-11-03,Amazon,4,"Donut sooper ah irundhuchu, sweet konjam correct ah irundhudhu"
+SC-2022,2026-11-03,Zomato,5,"The egg puff was super fresh and soft, loved it"
+SC-2023,2026-11-03,Google,1,Delivery took 75 minutes for a 2 km distance
+SC-2024,2026-11-03,Amazon,5,"Honey cake tasted homemade, not too sweet. Perfect"
+SC-2025,2026-11-03,Zomato,5,Rider was on time and very polite
+SC-2026,2026-11-03,Zomato,1,"Chocolate truffle cake stale ah irundhuchu, waste of money"
+SC-2027,2026-11-03,Swiggy,1,Rider called 4 times for directions and still came late
+SC-2028,2026-11-03,Swiggy,3,பஃப் பரவாயில்லை
+SC-2029,2026-11-04,Swiggy,4,ஊழியர்கள் மிகவும் அன்பாக பேசினார்கள்
+SC-2030,2026-11-04,Google,1,ஊழியர்கள் மரியாதை இல்லாமல் பேசினார்கள்
+SC-2031,2026-11-04,Google,5,"Delivery romba fast, 15 mins la vandhuchu"
+SC-2032,2026-11-04,Zomato,5,விலை நியாயமாக இருக்கிறது
+SC-2033,2026-11-04,Zomato,5,Loved the eco-friendly paper bags
+SC-2034,2026-11-04,Zomato,4,ஊழியர்கள் மிகவும் அன்பாக பேசினார்கள்
+SC-2035,2026-11-04,Google,2,"Delivery romba late, cake melt aayiduchu"
+SC-2036,2026-11-04,Zomato,2,Charged extra 30 rupees for candles without asking
+SC-2037,2026-11-04,Swiggy,2,கேக் பெட்டி நசுங்கி வந்தது
+SC-2038,2026-11-04,Swiggy,5,Cake box was sturdy and the cake reached without a scratch
+SC-2039,2026-11-04,Google,2,Rider called 4 times for directions and still came late
+SC-2040,2026-11-04,Zomato,1,Ordered an eggless cake for my vegetarian parents and got an egg cake. Totally wrong order
+SC-2041,2026-11-04,Swiggy,1,பஃப்பில் பூச்சி இருந்தது
+SC-2042,2026-11-04,Swiggy,5,"Delivered in 20 minutes, coffee was still hot"
+SC-2043,2026-11-04,Amazon,5,"Price reasonable, quality kooda nalla irukku"
+SC-2044,2026-11-04,Zomato,3,"Average chicken sandwich, a bit dry but fine with tea"
+SC-2045,2026-11-04,Google,4,"Ordered cold coffee for my daughter's birthday, everyone loved it"
+SC-2046,2026-11-05,Swiggy,3,"Average banana walnut bread, a bit dry but fine with tea"
+SC-2047,2026-11-05,Zomato,2,"Bill la extra charge pottanga, sollavae illa"
+SC-2048,2026-11-05,Zomato,3,டோனட் பரவாயில்லை
+SC-2049,2026-11-05,Swiggy,5,"Neat packing, puffs were still crisp when they arrived"
+SC-2050,2026-11-05,Zomato,2,"கேக் மிகவும் உலர்ந்து இருந்தது, சுவை இல்லை"
+SC-2051,2026-11-05,Google,2,Delivery took 75 minutes for a 2 km distance
+SC-2052,2026-11-05,Swiggy,5,டெலிவரி மிக வேகமாக வந்தது
+SC-2053,2026-11-05,Google,2,"Order panni 1 hour aachu, appuram dhaan vandhuchu"
+SC-2054,2026-11-05,Google,1,Bill had a packing charge that was not shown on the menu
+SC-2055,2026-11-05,Zomato,4,"Delivered in 20 minutes, coffee was still hot"
+SC-2056,2026-11-05,Zomato,5,"Delivered in 20 minutes, coffee was still hot"
+SC-2057,2026-11-05,Swiggy,5,விலை நியாயமாக இருக்கிறது
+SC-2058,2026-11-05,Zomato,4,Rider was on time and very polite
+SC-2059,2026-11-06,Swiggy,3,"Average veg puff, a bit dry but fine with tea"
+SC-2060,2026-11-06,Zomato,5,"Delivered in 20 minutes, coffee was still hot"
+SC-2061,2026-11-06,Swiggy,5,"The chicken sandwich was super fresh and soft, loved it"
+SC-2062,2026-11-06,Google,2,Puffs were soggy because the box had no vents
+SC-2063,2026-11-06,Zomato,5,"Delivered in 20 minutes, coffee was still hot"
+SC-2064,2026-11-06,Amazon,5,டெலிவரி மிக வேகமாக வந்தது
+SC-2065,2026-11-06,Zomato,5,விலை நியாயமாக இருக்கிறது
+SC-2066,2026-11-06,Zomato,3,"Veg puff was okay, nothing special"
+SC-2067,2026-11-06,Swiggy,2,"Could not apply the coupon on the app, support did not reply"
+SC-2068,2026-11-06,Amazon,5,Loved the eco-friendly paper bags
+SC-2069,2026-11-06,Zomato,1,"Delivery romba late, cake melt aayiduchu"
+SC-2070,2026-11-06,Google,2,"Delivery romba late, cake melt aayiduchu"
+SC-2071,2026-11-06,Swiggy,1,"Eggless cake order panna egg cake anupitaanga, wrong order"
+SC-2072,2026-11-06,Google,5,"Price reasonable, quality kooda nalla irukku"
+SC-2073,2026-11-06,Google,5,Cashier was patient even during the evening rush
+SC-2074,2026-11-06,Zomato,2,"The masala tea was stale, tasted like yesterday's stock"
+SC-2075,2026-11-06,Swiggy,1,"Ordered at 7pm, delivered at 8:30. Coffee was cold"
+SC-2076,2026-11-07,Amazon,2,Staff at the counter were busy on their phones and ignored us
+SC-2077,2026-11-07,Swiggy,4,டெலிவரி மிக வேகமாக வந்தது
+SC-2078,2026-11-07,Swiggy,5,"Garlic bread vera level, kids ku romba pidichadhu"
+SC-2079,2026-11-07,Swiggy,4,"Red velvet cupcake tasted homemade, not too sweet. Perfect"
+SC-2080,2026-11-07,Amazon,2,செயலியில் பணம் இரண்டு முறை எடுக்கப்பட்டது
+SC-2081,2026-11-07,Swiggy,1,Delivery took 75 minutes for a 2 km distance
+SC-2082,2026-11-07,Swiggy,5,"Staff romba polite ah pesinanga, nice service"
+SC-2083,2026-11-07,Swiggy,2,"Delivery romba late, cake melt aayiduchu"
+SC-2084,2026-11-07,Swiggy,2,"Cream konjam pulichu pochu, saapda mudiyala"
+SC-2085,2026-11-07,Amazon,3,"App konjam slow, but order vandhuchu"
+SC-2086,2026-11-07,Swiggy,5,"Best paneer roll in the area, will order again"
+SC-2087,2026-11-07,Zomato,3,பஃப் பரவாயில்லை
+SC-2088,2026-11-07,Swiggy,2,"The red velvet cupcake was stale, tasted like yesterday's stock"
+SC-2089,2026-11-07,Google,5,"Staff remembered my usual order, lovely service"
+SC-2090,2026-11-07,Zomato,2,Rider called 4 times for directions and still came late
+SC-2091,2026-11-07,Zomato,2,Box udanju cake ellam kalanju pochu
+SC-2092,2026-11-07,Zomato,3,பிரெட் பரவாயில்லை
+SC-2093,2026-11-08,Google,2,கேக் பெட்டி நசுங்கி வந்தது
+SC-2094,2026-11-08,Zomato,5,"Delivery romba fast, 15 mins la vandhuchu"
+SC-2095,2026-11-08,Google,3,Taste was fine but I expected more cream in the honey cake
+SC-2096,2026-11-08,Swiggy,5,"Delivery romba fast, 15 mins la vandhuchu"
+SC-2097,2026-11-08,Google,5,விலை நியாயமாக இருக்கிறது
+SC-2098,2026-11-08,Amazon,1,"Red velvet cupcake stale ah irundhuchu, waste of money"
+SC-2099,2026-11-08,Google,1,"Birthday cake arrived 1 hour late, party was already over"
+SC-2100,2026-11-08,Google,1,"I want a full refund, the cake I received had fungus on it"
+SC-2101,2026-11-08,Google,4,"Egg puff sooper ah irundhuchu, sweet konjam correct ah irundhudhu"
+SC-2102,2026-11-08,Swiggy,2,400 rupees for a small cupcake box is too much
+SC-2103,2026-11-08,Google,2,Rider called 4 times for directions and still came late
+SC-2104,2026-11-08,Amazon,5,"Ordered plum cake for my daughter's birthday, everyone loved it"
+SC-2105,2026-11-08,Google,2,"Delivery romba late, cake melt aayiduchu"
+SC-2106,2026-11-08,Google,1,"Wrong cake delivered, the name on it was someone else's"
+SC-2107,2026-11-08,Google,4,"Indha filter coffee ku naan fan, daily vaanguven"
+SC-2108,2026-11-08,Zomato,3,"Paneer roll was okay, nothing special"
+SC-2109,2026-11-08,Amazon,4,"Price reasonable, quality kooda nalla irukku"
+SC-2110,2026-11-08,Swiggy,4,"Really good chicken sandwich, worth every rupee"
+SC-2111,2026-11-09,Google,1,"Cake was dry inside, not worth 900 rupees"
+SC-2112,2026-11-09,Amazon,5,"Good value combo, puff and tea for 40 rupees"
+SC-2113,2026-11-09,Zomato,3,"Average black forest cake, a bit dry but fine with tea"
+SC-2114,2026-11-09,Google,1,"Brownie stale ah irundhuchu, waste of money"
+SC-2115,2026-11-09,Google,2,பிரெட் பழையதாக இருந்தது
+SC-2116,2026-11-09,Amazon,5,"Good value combo, puff and tea for 40 rupees"
+SC-2117,2026-11-09,Google,1,"Cake box was crushed, the top design was ruined"
+SC-2118,2026-11-09,Amazon,2,The paneer roll was burnt at the bottom
+SC-2119,2026-11-09,Zomato,3,Taste was fine but I expected more cream in the garlic bread
+SC-2120,2026-11-09,Google,1,"Eggless cake order panna egg cake anupitaanga, wrong order"
+SC-2121,2026-11-09,Amazon,2,"Bread was hard and dry, very disappointed"
+SC-2122,2026-11-09,Swiggy,2,Bill had a packing charge that was not shown on the menu
+SC-2123,2026-11-09,Zomato,2,"Prices increased again, puff is now 35 rupees"
+SC-2124,2026-11-09,Zomato,1,"பஃப் மிகவும் உலர்ந்து இருந்தது, சுவை இல்லை"
+SC-2125,2026-11-09,Zomato,5,"Indha brownie ku naan fan, daily vaanguven"
+SC-2126,2026-11-09,Zomato,5,விலை நியாயமாக இருக்கிறது
+SC-2127,2026-11-10,Google,4,விலை நியாயமாக இருக்கிறது
+SC-2128,2026-11-10,Zomato,3,"Garlic bread was okay, nothing special"
+SC-2129,2026-11-10,Zomato,1,"Bread was hard and dry, very disappointed"
+SC-2130,2026-11-10,Amazon,1,Puffs were soggy because the box had no vents
+SC-2131,2026-11-10,Zomato,3,"Banana walnut bread was okay, nothing special"
+SC-2132,2026-11-10,Amazon,5,"Honey cake tasted homemade, not too sweet. Perfect"
+SC-2133,2026-11-10,Amazon,5,Counter la irundha anna romba helpful
+SC-2134,2026-11-10,Google,5,"Price reasonable, quality kooda nalla irukku"
+SC-2135,2026-11-10,Google,2,Charged extra 30 rupees for candles without asking
+SC-2136,2026-11-10,Google,5,"Price reasonable, quality kooda nalla irukku"
+SC-2137,2026-11-10,Amazon,5,"Good value combo, puff and tea for 40 rupees"
+SC-2138,2026-11-10,Zomato,3,Taste was fine but I expected more cream in the cheese burst pizza
+SC-2139,2026-11-10,Swiggy,5,"Good value combo, puff and tea for 40 rupees"
+SC-2140,2026-11-10,Zomato,5,"Fresh banana walnut bread every morning, my go-to place"
+SC-2141,2026-11-11,Google,2,"டோனட் மிகவும் உலர்ந்து இருந்தது, சுவை இல்லை"
+SC-2142,2026-11-11,Zomato,2,"Cake box was crushed, the top design was ruined"
+SC-2143,2026-11-11,Swiggy,4,Counter staff were very friendly and helped me pick a cake
+SC-2144,2026-11-11,Zomato,2,"விலை மிக அதிகம், அளவு குறைவு"
+SC-2145,2026-11-11,Swiggy,4,விலை நியாயமாக இருக்கிறது
+SC-2146,2026-11-11,Zomato,5,Reasonable prices compared to other bakeries nearby
+SC-2147,2026-11-11,Zomato,5,"Good value combo, puff and tea for 40 rupees"
+SC-2148,2026-11-11,Amazon,4,Reasonable prices compared to other bakeries nearby
+SC-2149,2026-11-11,Amazon,3,"Veg puff was okay, nothing special"
+SC-2150,2026-11-11,Amazon,5,"பிறந்தநாள் கேக் அருமை, எல்லோருக்கும் பிடித்தது"
+SC-2151,2026-11-11,Zomato,3,"Ordered through the app, took a while to find the cake section"
+SC-2152,2026-11-11,Zomato,2,"Delivery romba late, cake melt aayiduchu"
+SC-2153,2026-11-11,Amazon,5,விலை நியாயமாக இருக்கிறது
+SC-2154,2026-11-11,Swiggy,5,"Really good chicken sandwich, worth every rupee"
+SC-2155,2026-11-11,Google,5,"Staff remembered my usual order, lovely service"
+SC-2156,2026-11-11,Google,2,டெலிவரி ஒரு மணி நேரம் தாமதமாக வந்தது
+SC-2157,2026-11-11,Amazon,3,Taste was fine but I expected more cream in the red velvet cupcake
+SC-2158,2026-11-12,Google,2,Puffs were soggy because the box had no vents
+SC-2159,2026-11-12,Zomato,3,"App konjam slow, but order vandhuchu"
+SC-2160,2026-11-12,Amazon,1,"விலை மிக அதிகம், அளவு குறைவு"
+SC-2161,2026-11-12,Amazon,2,"Cream konjam pulichu pochu, saapda mudiyala"
+SC-2162,2026-11-12,Swiggy,4,பேக்கிங் மிகவும் நேர்த்தியாக இருந்தது
+SC-2163,2026-11-12,Swiggy,5,"Price reasonable, quality kooda nalla irukku"
+SC-2164,2026-11-12,Swiggy,2,"Prices increased again, puff is now 35 rupees"
+SC-2165,2026-11-12,Zomato,3,"Ordered through the app, took a while to find the cake section"
+SC-2166,2026-11-12,Zomato,5,"Really good banana walnut bread, worth every rupee"
+SC-2167,2026-11-12,Swiggy,4,Reasonable prices compared to other bakeries nearby
+SC-2168,2026-11-12,Swiggy,2,Butter croissant was too sweet and the cream had a sour smell
+SC-2169,2026-11-12,Swiggy,3,"Butter croissant was okay, nothing special"
+SC-2170,2026-11-12,Zomato,5,"Delivery romba fast, 15 mins la vandhuchu"
+SC-2171,2026-11-12,Amazon,2,"Bill la extra charge pottanga, sollavae illa"
+SC-2172,2026-11-12,Google,4,டெலிவரி மிக வேகமாக வந்தது
+SC-2173,2026-11-12,Google,5,"Neat packing, puffs were still crisp when they arrived"
+SC-2174,2026-11-12,Swiggy,4,Counter la irundha anna romba helpful
+SC-2175,2026-11-12,Zomato,3,"Ordered through the app, took a while to find the cake section"
+SC-2176,2026-11-12,Swiggy,5,"Dilkush sooper ah irundhuchu, sweet konjam correct ah irundhudhu"
+SC-2177,2026-11-13,Swiggy,4,"Staff romba polite ah pesinanga, nice service"
+SC-2178,2026-11-13,Amazon,1,"I want a full refund, the cake I received had fungus on it"
+SC-2179,2026-11-13,Zomato,5,பிரவுனி மிகவும் சுவையாக இருந்தது
+SC-2180,2026-11-13,Amazon,5,விலை நியாயமாக இருக்கிறது
+SC-2181,2026-11-13,Google,3,"Banana walnut bread was okay, nothing special"
+SC-2182,2026-11-13,Google,4,"Chicken sandwich semma taste, romba fresh ah irundhuchu"
+SC-2183,2026-11-13,Google,1,"Bread was hard and dry, very disappointed"
+SC-2184,2026-11-13,Google,3,"App konjam slow, but order vandhuchu"
+SC-2185,2026-11-13,Google,2,"Bill la extra charge pottanga, sollavae illa"
+SC-2186,2026-11-13,Google,2,Delivery took 75 minutes for a 2 km distance
+SC-2187,2026-11-14,Zomato,5,"Fresh masala tea every morning, my go-to place"
+SC-2188,2026-11-14,Zomato,5,"Price reasonable, quality kooda nalla irukku"
+SC-2189,2026-11-14,Amazon,5,இங்கே காபி எப்போதும் புதியதாக இருக்கும்
+SC-2190,2026-11-14,Zomato,2,"விலை மிக அதிகம், அளவு குறைவு"
+SC-2191,2026-11-14,Google,2,Staff at the counter were busy on their phones and ignored us
+SC-2192,2026-11-14,Google,5,"Ordered chocolate truffle cake for my daughter's birthday, everyone loved it"
+SC-2193,2026-11-14,Zomato,4,"Staff romba polite ah pesinanga, nice service"
+SC-2194,2026-11-14,Swiggy,4,"Neat packing, puffs were still crisp when they arrived"
+SC-2195,2026-11-14,Amazon,5,"Pineapple pastry tasted homemade, not too sweet. Perfect"
+SC-2196,2026-11-14,Swiggy,2,"Delivery romba late, cake melt aayiduchu"
+SC-2197,2026-11-14,Google,2,"Price romba jaasthi, size romba chinna"
+SC-2198,2026-11-14,Google,5,"Really good veg puff, worth every rupee"
+SC-2199,2026-11-14,Zomato,4,"Good value combo, puff and tea for 40 rupees"
+SC-2200,2026-11-14,Swiggy,1,Ordered an eggless cake for my vegetarian parents and got an egg cake. Totally wrong order
+SC-2201,2026-11-14,Google,3,"Honey cake okay dhaan, special ah onnum illa"
+SC-2202,2026-11-14,Google,5,Reasonable prices compared to other bakeries nearby
+SC-2203,2026-11-14,Zomato,2,Paneer roll was too sweet and the cream had a sour smell
+SC-2204,2026-11-14,Google,5,"Delivery romba fast, 15 mins la vandhuchu"
+SC-2205,2026-11-15,Google,5,"Ordered paneer roll for my daughter's birthday, everyone loved it"
+SC-2206,2026-11-15,Zomato,1,"Eggless cake order panna egg cake anupitaanga, wrong order"
+SC-2207,2026-11-15,Google,4,டெலிவரி மிக வேகமாக வந்தது
+SC-2208,2026-11-15,Amazon,3,"Ordered through the app, took a while to find the cake section"
+SC-2209,2026-11-15,Swiggy,5,விலை நியாயமாக இருக்கிறது
+SC-2210,2026-11-15,Zomato,1,"Manager shouted at my wife in front of everyone, very insulting behaviour"
+SC-2211,2026-11-15,Google,5,"Dilkush vera level, kids ku romba pidichadhu"
+SC-2212,2026-11-15,Google,2,"App la payment fail aachu, aana amount cut aayiduchu"
+SC-2213,2026-11-15,Google,5,"Staff remembered my usual order, lovely service"
+SC-2214,2026-11-15,Google,5,"Really good chicken sandwich, worth every rupee"
+SC-2215,2026-11-15,Google,3,"Brownie okay dhaan, special ah onnum illa"
+SC-2216,2026-11-15,Google,5,"Good value combo, puff and tea for 40 rupees"
+SC-2217,2026-11-15,Zomato,2,Bill had a packing charge that was not shown on the menu
+SC-2218,2026-11-15,Google,5,Rider was on time and very polite
+SC-2219,2026-11-15,Google,2,"The butter croissant was stale, tasted like yesterday's stock"
+SC-2220,2026-11-15,Amazon,1,400 rupees for a small cupcake box is too much
+SC-2221,2026-11-15,Swiggy,5,விலை நியாயமாக இருக்கிறது
+SC-2222,2026-11-15,Amazon,4,Cashier was patient even during the evening rush
+SC-2223,2026-11-15,Zomato,1,"The honey cake was stale, tasted like yesterday's stock"
+SC-2224,2026-11-15,Google,4,Cake box was sturdy and the cake reached without a scratch
+SC-2225,2026-11-15,Swiggy,3,"Average pineapple pastry, a bit dry but fine with tea"
+SC-2900,2026-11-14,Google,4,
+SC-2901,2026-11-14,Zomato,3,   
+SC-2010,2026-11-14,Swiggy,5,Duplicate id - should be dropped
+SC-2902,14/31/2026,Google,3,Row with an invalid date

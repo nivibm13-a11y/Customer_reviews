@@ -61,6 +61,36 @@ def _classify_with_retry(chain: Runnable[dict[str, Any], Any], review: Review, f
     return analysis
 
 
+def _is_tamil_letter(ch: str) -> bool:
+    return "஀" <= ch <= "௿"
+
+
+def correct_language(text: str, llm_language: str) -> str:
+    """
+    Fix the script-based part of the language tag deterministically.
+
+    Tamil means Tamil script; Tanglish is Tamil written in Latin letters. The LLM sometimes
+    labels Latin-script Tamil as "Tamil", so the script decides between the two. English vs
+    Tanglish (both Latin script) is left to the LLM.
+
+    Args:
+        text: Original review text
+        llm_language: Language returned by the classifier
+
+    Returns:
+        Corrected language label
+    """
+    letters = [ch for ch in text if ch.isalpha()]
+    if not letters:
+        return llm_language
+    tamil_share = sum(_is_tamil_letter(ch) for ch in letters) / len(letters)
+    if tamil_share >= 0.5:
+        return Language.Tamil.value
+    if llm_language == Language.Tamil.value:
+        return Language.Tanglish.value
+    return llm_language
+
+
 def apply_analysis(review: Review, analysis: ReviewAnalysis | None) -> None:
     """Write analysis fields onto the review or mark it needs_review."""
     if analysis is None:
@@ -69,7 +99,7 @@ def apply_analysis(review: Review, analysis: ReviewAnalysis | None) -> None:
     review.sentiment = Sentiment(analysis.sentiment)
     review.category = Category(analysis.category)
     review.urgency = Urgency(analysis.urgency)
-    review.language = Language(analysis.language)
+    review.language = Language(correct_language(review.review_text, analysis.language))
     review.summary = analysis.summary.strip()
     review.suggested_reply = analysis.suggested_reply.strip()
     review.analysis_status = AnalysisStatus.ok

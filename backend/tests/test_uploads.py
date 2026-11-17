@@ -1,12 +1,13 @@
 from typing import Any
 
+import pytest
 from fastapi.testclient import TestClient
 from sqlalchemy import select
 
 from app.database import SessionLocal
 from app.models import Review, Upload
 from app.models.enums import AnalysisStatus, UploadStatus
-from app.services.analysis_service import fail_stale_uploads
+from app.services.analysis_service import correct_language, fail_stale_uploads
 from tests.conftest import FIXTURES, register, upload_csv
 
 HEADER = "review_id,date,platform,rating,review_text\n"
@@ -124,3 +125,18 @@ def test_stale_upload_retry(client_: TestClient, auth_headers: dict[str, str], b
     assert final["processed_count"] == 1
     again = client_.post(f"/api/v1/uploads/{upload_id}/retry", headers=auth_headers)
     assert again.status_code == 409
+
+
+@pytest.mark.parametrize(
+    ("text", "llm_language", "expected"),
+    [
+        ("Box udanju cake ellam kalanju pochu", "Tamil", "Tanglish"),
+        ("கேக்கில் முடி இருந்தது, மிகவும் மோசம்", "Tanglish", "Tamil"),
+        ("கேக் was super, thanks", "Tamil", "Tanglish"),
+        ("Neat packing, puffs were crisp", "English", "English"),
+        ("Biryani semma taste", "Tanglish", "Tanglish"),
+        ("12345 !!!", "English", "English"),
+    ],
+)
+def test_correct_language_uses_script(text: str, llm_language: str, expected: str) -> None:
+    assert correct_language(text, llm_language) == expected

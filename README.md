@@ -74,6 +74,18 @@ Every count, percentage and platform split above is calculated in pandas/SQL and
 | **Ask your reviews (RAG)** | Reviews are embedded (`OpenAIEmbeddings`) into **pgvector** via `langchain_postgres.PGVector`. A LangChain retrieval chain answers questions using only the selected business's reviews, citing review IDs, with filters by week, sentiment, category and platform. |
 | **Multi-business SaaS** | Email/password + Google OAuth (JWT access + rotating refresh tokens), several businesses/outlets per user, strict ownership checks. |
 
+## Tested with a second dataset
+
+Besides the course sample, the app was tested with `samples/sweet_crumbs_reviews_nov2026.csv`: 229 reviews for a fictional bakery & cafe (English / Tanglish / Tamil, 4 broken rows on purpose). The CSV was generated for testing because no real customer export was available.
+
+| Check | Result |
+|---|---|
+| Rows | 229 in, 225 analysed, 4 dropped (2 empty, 1 duplicate id, 1 bad date), 0 needs review |
+| Sentiment / category vs known answers | 100% / 99.6% |
+| Language (after the script check) | 98%+ |
+| Dashboard, report counts vs SQL | exact match |
+| Week-over-week trend | delivery complaints 22 -> 7, price complaints 4 -> 13 (the pattern built into the data) |
+
 ## Tech stack
 
 FastAPI · LangChain (langchain-core, langchain-openai, langchain-postgres) · pandas · PostgreSQL 16 + pgvector · SQLAlchemy 2 + Alembic · React 18 + TypeScript + Vite · Tailwind + shadcn-style UI + Framer Motion · TanStack Query/Table · Recharts.
@@ -96,7 +108,7 @@ npm run dev                                # http://localhost:5174
 ```
 
 - API docs: http://localhost:8000/docs
-- Sample data: `frontend/public/sample-reviews.csv` (20 rows), `backend/tests/fixtures/reviews_week40.csv` (223 rows, 3 weeks)
+- Sample data: `frontend/public/sample-reviews.csv` (20 rows), `backend/tests/fixtures/reviews_week40.csv` (223 rows, 3 weeks), `samples/sweet_crumbs_reviews_nov2026.csv` (229 rows, 2 weeks, second test dataset)
 
 Full stack in containers (frontend on http://localhost:3000): `docker compose up --build`.
 
