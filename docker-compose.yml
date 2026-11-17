@@ -1,0 +1,44 @@
+# Production-like stack: Postgres+pgvector, FastAPI backend, nginx-served frontend.
+# Secrets come from backend/.env (copy backend/.env.example).
+services:
+  db:
+    image: pgvector/pgvector:pg16
+    environment:
+      POSTGRES_USER: reviewlens
+      POSTGRES_PASSWORD: reviewlens
+      POSTGRES_DB: reviewlens
+    ports:
+      - "5433:5432"   # host 5433 (5432 is used by a local Postgres service)
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U reviewlens -d reviewlens"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  backend:
+    build: ./backend
+    env_file: ./backend/.env
+    environment:
+      DATABASE_URL: postgresql://reviewlens:reviewlens@db:5432/reviewlens
+      FRONTEND_URL: http://localhost:3000
+      ALLOWED_ORIGINS: http://localhost:3000,http://localhost:5174
+    ports:
+      - "8000:8000"
+    depends_on:
+      db:
+        condition: service_healthy
+
+  frontend:
+    build:
+      context: ./frontend
+      args:
+        VITE_API_URL: http://localhost:8000
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
+
+volumes:
+  pgdata:
