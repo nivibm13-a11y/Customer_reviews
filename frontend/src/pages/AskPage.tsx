@@ -79,11 +79,11 @@ function AskView({ business }: { business: Business }) {
   }, [messages]);
 
   const ask = useMutation({
-    mutationFn: (question: string) =>
+    mutationFn: (req: { question: string; history: Message[]; filters: AskFilters }) =>
       askService.ask(business.id, {
-        question,
-        history: messages.slice(-6).map(({ role, content }) => ({ role, content })),
-        ...filters,
+        question: req.question,
+        history: req.history.slice(-6).map(({ role, content }) => ({ role, content })),
+        ...req.filters,
       }),
     onSuccess: (res) =>
       setMessages((m) => [...m, { id: Date.now(), role: "assistant", content: res.answer, sources: res.sources }]),
@@ -98,8 +98,19 @@ function AskView({ business }: { business: Business }) {
     if (!q || ask.isPending) return;
     setMessages((m) => [...m, { id: Date.now(), role: "user", content: q }]);
     setInput("");
-    ask.mutate(q);
+    ask.mutate({ question: q, history: messages, filters });
   };
+
+  /** Apply new filters; if a question was already asked, re-ask it with the new filters in a fresh chat. */
+  const updateFilters = (next: AskFilters) => {
+    setFilters(next);
+    const lastQuestion = [...messages].reverse().find((m) => m.role === "user")?.content;
+    if (!lastQuestion || ask.isPending) return;
+    setMessages([{ id: Date.now(), role: "user", content: lastQuestion }]);
+    ask.mutate({ question: lastQuestion, history: [], filters: next });
+  };
+
+  const activeFilterCount = Object.values(filters).filter(Boolean).length;
 
   const onSubmit = (e: FormEvent) => {
     e.preventDefault();
@@ -134,7 +145,7 @@ function AskView({ business }: { business: Business }) {
           aria-label="Week filter"
           className="h-8 w-auto text-xs"
           value={filters.week_start ?? ""}
-          onChange={(e) => setFilters({ ...filters, week_start: e.target.value || undefined })}
+          onChange={(e) => updateFilters({ ...filters, week_start: e.target.value || undefined })}
         >
           <option value="">All weeks</option>
           {weeks.map((w) => (
@@ -147,7 +158,7 @@ function AskView({ business }: { business: Business }) {
           aria-label="Sentiment filter"
           className="h-8 w-auto text-xs"
           value={filters.sentiment ?? ""}
-          onChange={(e) => setFilters({ ...filters, sentiment: (e.target.value as Sentiment) || undefined })}
+          onChange={(e) => updateFilters({ ...filters, sentiment: (e.target.value as Sentiment) || undefined })}
         >
           <option value="">Any sentiment</option>
           {SENTIMENTS.map((s) => (
@@ -160,7 +171,7 @@ function AskView({ business }: { business: Business }) {
           aria-label="Category filter"
           className="h-8 w-auto text-xs"
           value={filters.category ?? ""}
-          onChange={(e) => setFilters({ ...filters, category: (e.target.value as Category) || undefined })}
+          onChange={(e) => updateFilters({ ...filters, category: (e.target.value as Category) || undefined })}
         >
           <option value="">Any category</option>
           {CATEGORIES.map((c) => (
@@ -173,7 +184,7 @@ function AskView({ business }: { business: Business }) {
           aria-label="Platform filter"
           className="h-8 w-auto text-xs"
           value={filters.platform ?? ""}
-          onChange={(e) => setFilters({ ...filters, platform: e.target.value || undefined })}
+          onChange={(e) => updateFilters({ ...filters, platform: e.target.value || undefined })}
         >
           <option value="">Any platform</option>
           {PLATFORMS.map((p) => (
@@ -182,6 +193,16 @@ function AskView({ business }: { business: Business }) {
             </option>
           ))}
         </Select>
+        {activeFilterCount > 0 && (
+          <Button variant="ghost" size="sm" className="h-8 text-xs" onClick={() => updateFilters({})}>
+            Clear filters
+          </Button>
+        )}
+        <span className="text-xs text-muted-foreground">
+          {activeFilterCount > 0
+            ? `Answers use only reviews matching ${activeFilterCount} filter${activeFilterCount > 1 ? "s" : ""}. Changing a filter re-asks your last question.`
+            : "Pick a filter to narrow the answer. Your last question is re-asked automatically."}
+        </span>
       </Card>
 
       <Card className="flex h-[calc(100vh-20rem)] min-h-[420px] flex-col">
