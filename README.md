@@ -108,7 +108,7 @@ npm run dev                                # http://localhost:5174
 ```
 
 - API docs: http://localhost:8000/docs
-- Sample data: `frontend/public/sample-reviews.csv` (20 rows), `backend/tests/fixtures/reviews_week40.csv` (223 rows, 3 weeks), `samples/sweet_crumbs_reviews_nov2026.csv` (229 rows, 2 weeks, second test dataset)
+- Sample data: `frontend/public/sample-reviews.csv` (215 rows, one week, also the in-app "Download a sample CSV"; copy in `samples/demo_restaurant_week_nov9_2026.csv`), `backend/tests/fixtures/reviews_week40.csv` (223 rows, 3 weeks), `samples/sweet_crumbs_reviews_nov2026.csv` (229 rows, 2 weeks, second test dataset)
 
 Full stack in containers (frontend on http://localhost:3000): `docker compose up --build`.
 

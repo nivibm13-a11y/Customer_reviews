@@ -1,21 +1,216 @@
 review_id,date,platform,rating,review_text
-R-1111,2026-09-29,Swiggy,2,Extra packing charge and service charge not shown in menu
-R-1112,2026-10-03,Zomato,5,"Parotta and salna romba nalla irundhuchu, staff friendly"
-R-1113,2026-09-29,Zomato,3,Good taste but price konjam jaasthi
-R-1114,2026-10-05,Amazon,1,"Delivery boy romba late, food cold aayiduchu"
-R-1115,2026-10-01,Amazon,1,"டெலிவரி ரொம்ப தாமதம், சாப்பாடு ஆறிப்போச்சு"
-R-1116,2026-09-30,Swiggy,5,"Taste super, biryani semma, will come again"
-R-1117,2026-09-30,Google,5,"Biryani was amazing, packing also neat. Will order again!"
-R-1118,2026-09-30,Zomato,2,Extra packing charge and service charge not shown in menu
-R-1119,2026-09-30,Swiggy,5,"Neat packaging and hot food, thanks!"
-R-1120,2026-10-02,Swiggy,2,Saapadu nalla irundhuchu but bill la extra charge pottanga
-R-1121,2026-09-29,Google,2,Saapadu nalla irundhuchu but bill la extra charge pottanga
-R-1122,2026-10-01,Swiggy,3,Good taste but price konjam jaasthi
-R-1123,2026-09-30,Swiggy,5,"Parotta and salna romba nalla irundhuchu, staff friendly"
-R-1124,2026-09-29,Google,3,Good taste but price konjam jaasthi
-R-1125,2026-09-30,Amazon,1,"Got food poisoning after eating chicken rice, please check hygiene"
-R-1126,2026-10-05,Amazon,1,"Ordered at 8pm, came at 9:10. Food fully cold. Very bad."
-R-1127,2026-10-04,Google,1,"Delivery boy romba late, food cold aayiduchu"
-R-1128,2026-09-30,Zomato,5,"Taste super, biryani semma, will come again"
-R-1129,2026-10-02,Zomato,2,"Container leaked, gravy all over the bag"
-R-1130,2026-10-05,Zomato,1,"Delivery boy romba late, food cold aayiduchu"
+D-3001,2026-11-09,Google,1,"Charged for 2 coffees, we had only one"
+D-3002,2026-11-09,Zomato,5,டெலிவரி மிக வேகமாக வந்தது
+D-3003,2026-11-09,Google,4,Rider was on time and very courteous
+D-3004,2026-11-09,Swiggy,5,Rider was on time and very courteous
+D-3005,2026-11-09,Swiggy,5,Filter coffee tasted just like home
+D-3006,2026-11-09,Amazon,2,செயலியில் பணம் இரண்டு முறை எடுக்கப்பட்டது
+D-3007,2026-11-09,Google,2,Extra packing charge and service charge not shown in menu
+D-3008,2026-11-09,Zomato,5,Delivered in 25 minutes and the food was still hot
+D-3009,2026-11-09,Amazon,5,Lunch combo at 149 is a great deal
+D-3010,2026-11-09,Google,5,Chicken biryani tasted just like home
+D-3011,2026-11-09,Zomato,5,விலைக்கு ஏற்ற அளவு
+D-3012,2026-11-09,Zomato,5,Staff helped us find a table even on a busy Sunday
+D-3013,2026-11-09,Swiggy,5,"Idli sambar was hot, fresh and full of flavour"
+D-3014,2026-11-09,Swiggy,5,Delivered in 25 minutes and the food was still hot
+D-3015,2026-11-09,Swiggy,3,"Fish curry was okay, nothing special"
+D-3016,2026-11-09,Swiggy,5,Waiters were very polite and quick
+D-3017,2026-11-09,Swiggy,4,Rider was on time and very courteous
+D-3018,2026-11-09,Zomato,1,Idli sambar la kaaram romba jaasthi
+D-3019,2026-11-09,Google,1,"Ordered veg meals, got chicken. I am a strict vegetarian!"
+D-3020,2026-11-09,Zomato,2,The ghee roast dosa was cold and tasteless
+D-3021,2026-11-09,Google,2,"Waiter care eh pannala, romba neram wait pannom"
+D-3022,2026-11-09,Zomato,1,"Veg order panna chicken anupitaanga, wrong order"
+D-3023,2026-11-09,Zomato,4,டெலிவரி மிக வேகமாக வந்தது
+D-3024,2026-11-09,Zomato,5,"The veg meals was amazing, will order again!"
+D-3025,2026-11-09,Google,5,"பிரியாணி அருமை, மீண்டும் வருவோம்"
+D-3026,2026-11-09,Google,5,இங்கே காபி எப்போதும் சூடாக இருக்கும்
+D-3027,2026-11-09,Zomato,5,"Price reasonable, quantity kooda jaasthi"
+D-3028,2026-11-09,Zomato,5,Delivered in 25 minutes and the food was still hot
+D-3029,2026-11-09,Zomato,1,ஊழியர்கள் மரியாதை இல்லாமல் பேசினார்கள்
+D-3030,2026-11-09,Amazon,2,செயலியில் பணம் இரண்டு முறை எடுக்கப்பட்டது
+D-3031,2026-11-09,Zomato,3,"Ghee roast dosa okay dhaan, special ah onnum illa"
+D-3032,2026-11-10,Amazon,5,"Delivery romba fast, saapadu soodaave irundhuchu"
+D-3033,2026-11-10,Swiggy,3,"Ghee roast dosa okay dhaan, special ah onnum illa"
+D-3034,2026-11-10,Swiggy,1,"Rava kesari was too salty, could not eat it"
+D-3035,2026-11-10,Zomato,3,"Average mutton biryani, could be a bit hotter"
+D-3036,2026-11-10,Zomato,5,Lunch combo at 149 is a great deal
+D-3037,2026-11-10,Zomato,5,"Good portion for the price, value for money"
+D-3038,2026-11-10,Zomato,1,"Veg order panna chicken anupitaanga, wrong order"
+D-3039,2026-11-10,Zomato,5,டெலிவரி மிக வேகமாக வந்தது
+D-3040,2026-11-10,Swiggy,5,"Delivery romba fast, saapadu soodaave irundhuchu"
+D-3041,2026-11-10,Google,3,Taste was fine but a little too oily
+D-3042,2026-11-10,Amazon,5,டெலிவரி மிக வேகமாக வந்தது
+D-3043,2026-11-10,Zomato,5,"Price reasonable, quantity kooda jaasthi"
+D-3044,2026-11-10,Zomato,4,பேக்கிங் மிகவும் நேர்த்தியாக இருந்தது
+D-3045,2026-11-10,Google,4,"The paneer butter masala was amazing, will order again!"
+D-3046,2026-11-10,Zomato,1,"I want a full refund, the order never arrived but app says delivered"
+D-3047,2026-11-10,Swiggy,4,டெலிவரி மிக வேகமாக வந்தது
+D-3048,2026-11-10,Zomato,3,"Fish curry okay dhaan, special ah onnum illa"
+D-3049,2026-11-10,Zomato,5,டெலிவரி மிக வேகமாக வந்தது
+D-3050,2026-11-10,Google,2,Container udanju sambar ellam kottiduchu
+D-3051,2026-11-10,Google,4,டெலிவரி மிக வேகமாக வந்தது
+D-3052,2026-11-10,Google,2,Order panni 1 hour aachu appuram dhaan vandhuchu
+D-3053,2026-11-10,Zomato,5,Kothu parotta tasted just like home
+D-3054,2026-11-10,Amazon,3,"Idli sambar okay dhaan, special ah onnum illa"
+D-3055,2026-11-10,Zomato,5,Lunch combo at 149 is a great deal
+D-3056,2026-11-10,Swiggy,1,"Ordered at 8pm, came at 9:15. Food fully cold"
+D-3057,2026-11-10,Amazon,1,Delivery took over an hour for 3 km
+D-3058,2026-11-10,Google,1,"I want a full refund, the order never arrived but app says delivered"
+D-3059,2026-11-10,Google,5,Loved the leak-proof containers
+D-3060,2026-11-10,Swiggy,2,Very little chicken in the mushroom biryani
+D-3061,2026-11-10,Swiggy,1,"விலை அதிகம், அளவு குறைவு"
+D-3062,2026-11-10,Swiggy,1,The chicken 65 was cold and tasteless
+D-3063,2026-11-10,Swiggy,5,Delivered in 25 minutes and the food was still hot
+D-3064,2026-11-10,Zomato,4,Rider was on time and very courteous
+D-3065,2026-11-11,Google,2,"Items missing from my order, no raita"
+D-3066,2026-11-11,Swiggy,2,செயலியில் பணம் இரண்டு முறை எடுக்கப்பட்டது
+D-3067,2026-11-11,Zomato,1,"Items missing from my order, no raita"
+D-3068,2026-11-11,Zomato,2,"App la payment fail aachu, aana amount cut aayiduchu"
+D-3069,2026-11-11,Zomato,2,Extra packing charge and service charge not shown in menu
+D-3070,2026-11-11,Swiggy,5,"Staff romba polite, nalla service"
+D-3071,2026-11-11,Swiggy,2,டெலிவரி ஒரு மணி நேரம் தாமதம்
+D-3072,2026-11-11,Google,5,"இட்லி அருமை, மீண்டும் வருவோம்"
+D-3073,2026-11-11,Google,2,"Biryani price went up again, now 320 rupees"
+D-3074,2026-11-11,Google,4,Rider was on time and very courteous
+D-3075,2026-11-11,Google,4,Rider was on time and very courteous
+D-3076,2026-11-11,Amazon,2,Gravy leaked all over the bag
+D-3077,2026-11-11,Zomato,3,"Paneer butter masala okay dhaan, special ah onnum illa"
+D-3078,2026-11-11,Amazon,4,தோசை மிகவும் சுவையாக இருந்தது
+D-3079,2026-11-11,Zomato,5,"Good portion for the price, value for money"
+D-3080,2026-11-11,Google,3,"Average fish curry, could be a bit hotter"
+D-3081,2026-11-11,Swiggy,4,"Price reasonable, quantity kooda jaasthi"
+D-3082,2026-11-11,Google,5,"Price reasonable, quantity kooda jaasthi"
+D-3083,2026-11-11,Zomato,3,பரோட்டா பரவாயில்லை
+D-3084,2026-11-11,Swiggy,5,"Very friendly service, the manager checked on us"
+D-3085,2026-11-11,Google,2,Rice in the egg fried rice was undercooked
+D-3086,2026-11-11,Swiggy,1,App showed the restaurant open but it was closed
+D-3087,2026-11-11,Google,5,"Delivery romba fast, saapadu soodaave irundhuchu"
+D-3088,2026-11-11,Swiggy,5,Delivered in 25 minutes and the food was still hot
+D-3089,2026-11-11,Swiggy,3,"Mushroom biryani okay dhaan, special ah onnum illa"
+D-3090,2026-11-11,Swiggy,2,Delivery took over an hour for 3 km
+D-3091,2026-11-11,Zomato,1,"Biryani price went up again, now 320 rupees"
+D-3092,2026-11-11,Swiggy,5,விலைக்கு ஏற்ற அளவு
+D-3093,2026-11-11,Swiggy,1,"தவறான ஆர்டர் வந்தது, சைவம் கேட்டோம்"
+D-3094,2026-11-11,Google,3,பிரியாணி பரவாயில்லை
+D-3095,2026-11-11,Amazon,5,இங்கே பிரியாணி எப்போதும் சூடாக இருக்கும்
+D-3096,2026-11-11,Zomato,4,Rider was on time and very courteous
+D-3097,2026-11-12,Swiggy,5,"Good portion for the price, value for money"
+D-3098,2026-11-12,Zomato,5,Rider was on time and very courteous
+D-3099,2026-11-12,Swiggy,1,"Ordered at 8pm, came at 9:15. Food fully cold"
+D-3100,2026-11-12,Zomato,5,"Price reasonable, quantity kooda jaasthi"
+D-3101,2026-11-12,Swiggy,2,"Curd rice was too salty, could not eat it"
+D-3102,2026-11-12,Swiggy,4,"Good portion for the price, value for money"
+D-3103,2026-11-12,Google,2,Container udanju sambar ellam kottiduchu
+D-3104,2026-11-12,Google,5,"Good portion for the price, value for money"
+D-3105,2026-11-12,Amazon,2,Rider called 5 times for the location and still came late
+D-3106,2026-11-12,Zomato,4,"Staff romba polite, nalla service"
+D-3107,2026-11-12,Zomato,5,"காபி அருமை, மீண்டும் வருவோம்"
+D-3108,2026-11-12,Swiggy,2,Coupon would not apply on the app
+D-3109,2026-11-12,Swiggy,5,"Loved the idli sambar, perfect spice level"
+D-3110,2026-11-12,Zomato,4,Lunch combo at 149 is a great deal
+D-3111,2026-11-12,Google,5,Staff helped us find a table even on a busy Sunday
+D-3112,2026-11-12,Zomato,5,Delivered in 25 minutes and the food was still hot
+D-3113,2026-11-12,Swiggy,3,பரோட்டா பரவாயில்லை
+D-3114,2026-11-12,Zomato,5,"Price reasonable, quantity kooda jaasthi"
+D-3115,2026-11-12,Swiggy,3,"Ordered through the app, menu was a bit confusing"
+D-3116,2026-11-12,Swiggy,1,There was a piece of plastic inside the parotta
+D-3117,2026-11-12,Zomato,5,Best curd rice I have had in Chennai
+D-3118,2026-11-12,Swiggy,3,"Veg meals okay dhaan, special ah onnum illa"
+D-3119,2026-11-12,Zomato,5,"Curd rice sooper, spice correct ah irundhuchu"
+D-3120,2026-11-12,Zomato,2,"Items missing from my order, no raita"
+D-3121,2026-11-12,Google,5,Delivered in 25 minutes and the food was still hot
+D-3122,2026-11-12,Google,4,"Good portion for the price, value for money"
+D-3123,2026-11-12,Zomato,1,"Sambar la karappaan poochi irundhuchu, romba kevalam"
+D-3124,2026-11-12,Zomato,5,"Mushroom biryani sooper, spice correct ah irundhuchu"
+D-3125,2026-11-13,Google,5,"Mushroom biryani semma taste, romba nalla irundhuchu"
+D-3126,2026-11-13,Zomato,4,Loved the leak-proof containers
+D-3127,2026-11-13,Google,2,Delivery took over an hour for 3 km
+D-3128,2026-11-13,Zomato,5,பேக்கிங் மிகவும் நேர்த்தியாக இருந்தது
+D-3129,2026-11-13,Zomato,1,Very little chicken in the masala dosa
+D-3130,2026-11-13,Zomato,5,Delivered in 25 minutes and the food was still hot
+D-3131,2026-11-13,Amazon,5,இங்கே சாப்பாடு எப்போதும் சூடாக இருக்கும்
+D-3132,2026-11-13,Google,4,"Fish curry was hot, fresh and full of flavour"
+D-3133,2026-11-13,Google,4,Delivered in 25 minutes and the food was still hot
+D-3134,2026-11-13,Zomato,5,"Delivery romba fast, saapadu soodaave irundhuchu"
+D-3135,2026-11-13,Swiggy,4,"Fish curry semma taste, romba nalla irundhuchu"
+D-3136,2026-11-13,Google,2,Extra packing charge and service charge not shown in menu
+D-3137,2026-11-13,Swiggy,1,Delivery took over an hour for 3 km
+D-3138,2026-11-13,Google,5,"தோசை அருமை, மீண்டும் வருவோம்"
+D-3139,2026-11-13,Swiggy,5,Fish curry tasted just like home
+D-3140,2026-11-13,Swiggy,1,Very little chicken in the rava kesari
+D-3141,2026-11-13,Zomato,2,Cashier was rude when we asked for the bill
+D-3142,2026-11-13,Google,5,Lunch combo at 149 is a great deal
+D-3143,2026-11-13,Swiggy,1,"தவறான ஆர்டர் வந்தது, சைவம் கேட்டோம்"
+D-3144,2026-11-14,Zomato,1,There was a piece of plastic inside the parotta
+D-3145,2026-11-14,Google,5,பிரியாணி மிகவும் சுவையாக இருந்தது
+D-3146,2026-11-14,Zomato,3,Taste was fine but a little too oily
+D-3147,2026-11-14,Zomato,3,"Kothu parotta okay dhaan, special ah onnum illa"
+D-3148,2026-11-14,Zomato,2,Waiter ignored us for 20 minutes
+D-3149,2026-11-14,Zomato,2,The kothu parotta was cold and tasteless
+D-3150,2026-11-14,Google,4,"Kothu parotta semma taste, romba nalla irundhuchu"
+D-3151,2026-11-14,Zomato,1,இட்லி மிகவும் உப்பாக இருந்தது
+D-3152,2026-11-14,Swiggy,1,கிரேவி பை முழுவதும் சிந்தியது
+D-3153,2026-11-14,Zomato,1,டெலிவரி ஒரு மணி நேரம் தாமதம்
+D-3154,2026-11-14,Zomato,1,"இட்லி பழையதாக இருந்தது, சுவை இல்லை"
+D-3155,2026-11-14,Google,1,Order panni 1 hour aachu appuram dhaan vandhuchu
+D-3156,2026-11-14,Google,4,Indha kadai chicken 65 dhaan best
+D-3157,2026-11-14,Zomato,5,Rider was on time and very courteous
+D-3158,2026-11-14,Swiggy,4,"The parotta and salna was amazing, will order again!"
+D-3159,2026-11-14,Swiggy,2,"Masala dosa romba uppu, saapda mudiyala"
+D-3160,2026-11-14,Swiggy,3,"Average chicken biryani, could be a bit hotter"
+D-3161,2026-11-14,Amazon,5,"The ghee roast dosa was amazing, will order again!"
+D-3162,2026-11-14,Swiggy,5,Best chettinad chicken I have had in Chennai
+D-3163,2026-11-14,Swiggy,1,Found a cockroach in the sambar. Disgusting
+D-3164,2026-11-14,Swiggy,5,Rider was on time and very courteous
+D-3165,2026-11-14,Zomato,2,Delivery took over an hour for 3 km
+D-3166,2026-11-14,Google,4,"Ordered egg fried rice for the family, everyone finished it"
+D-3167,2026-11-14,Swiggy,2,"Raita and sweet missing, check pannama anupitaanga"
+D-3168,2026-11-14,Google,4,பேக்கிங் மிகவும் நேர்த்தியாக இருந்தது
+D-3169,2026-11-14,Zomato,5,Lunch combo at 149 is a great deal
+D-3170,2026-11-14,Google,2,"தோசை பழையதாக இருந்தது, சுவை இல்லை"
+D-3171,2026-11-14,Zomato,1,"Full refund venum, order varave illa"
+D-3172,2026-11-14,Zomato,3,"Ordered through the app, menu was a bit confusing"
+D-3173,2026-11-14,Google,3,"Ordered through the app, menu was a bit confusing"
+D-3174,2026-11-14,Zomato,5,"Good portion for the price, value for money"
+D-3175,2026-11-14,Amazon,5,விலைக்கு ஏற்ற அளவு
+D-3176,2026-11-14,Zomato,1,Delivery took over an hour for 3 km
+D-3177,2026-11-14,Amazon,2,"Kothu parotta romba uppu, saapda mudiyala"
+D-3178,2026-11-14,Google,5,"Delivery romba fast, saapadu soodaave irundhuchu"
+D-3179,2026-11-14,Swiggy,5,Best mushroom biryani I have had in Chennai
+D-3180,2026-11-14,Amazon,1,"Items missing from my order, no raita"
+D-3181,2026-11-14,Google,5,இங்கே பரோட்டா எப்போதும் சூடாக இருக்கும்
+D-3182,2026-11-14,Zomato,5,Best ghee roast dosa I have had in Chennai
+D-3183,2026-11-14,Swiggy,5,Loved the leak-proof containers
+D-3184,2026-11-14,Swiggy,4,Lunch combo at 149 is a great deal
+D-3185,2026-11-15,Zomato,5,"Ordered rava kesari for the family, everyone finished it"
+D-3186,2026-11-15,Google,4,Rider was on time and very courteous
+D-3187,2026-11-15,Google,5,"Good portion for the price, value for money"
+D-3188,2026-11-15,Google,5,டெலிவரி மிக வேகமாக வந்தது
+D-3189,2026-11-15,Amazon,2,"Delivery romba late, saapadu ellam aariduchu"
+D-3190,2026-11-15,Google,2,"Ordered at 8pm, came at 9:15. Food fully cold"
+D-3191,2026-11-15,Zomato,5,"Delivery romba fast, saapadu soodaave irundhuchu"
+D-3192,2026-11-15,Amazon,4,"Good portion for the price, value for money"
+D-3193,2026-11-15,Google,3,"Average idli sambar, could be a bit hotter"
+D-3194,2026-11-15,Google,4,Rider was on time and very courteous
+D-3195,2026-11-15,Google,4,Rider was on time and very courteous
+D-3196,2026-11-15,Google,5,Delivered in 25 minutes and the food was still hot
+D-3197,2026-11-15,Swiggy,4,Waiter anna romba friendly ah irundhaar
+D-3198,2026-11-15,Amazon,5,"Delivery romba fast, saapadu soodaave irundhuchu"
+D-3199,2026-11-15,Swiggy,2,Gravy leaked all over the bag
+D-3200,2026-11-15,Zomato,5,"Staff romba polite, nalla service"
+D-3201,2026-11-15,Swiggy,4,"Paneer butter masala semma taste, romba nalla irundhuchu"
+D-3202,2026-11-15,Google,1,Found a cockroach in the sambar. Disgusting
+D-3203,2026-11-15,Swiggy,5,Delivered in 25 minutes and the food was still hot
+D-3204,2026-11-15,Amazon,3,"Average idli sambar, could be a bit hotter"
+D-3205,2026-11-15,Swiggy,5,"Price reasonable, quantity kooda jaasthi"
+D-3206,2026-11-15,Zomato,1,"Bill la extra charge pottanga, sollave illa"
+D-3207,2026-11-15,Zomato,5,டெலிவரி மிக வேகமாக வந்தது
+D-3208,2026-11-15,Amazon,1,App showed the restaurant open but it was closed
+D-3209,2026-11-15,Zomato,3,இட்லி பரவாயில்லை
+D-3210,2026-11-15,Zomato,3,"Ordered through the app, menu was a bit confusing"
+D-3211,2026-11-15,Google,5,"Delivery romba fast, saapadu soodaave irundhuchu"
+D-3212,2026-11-15,Google,2,"Items missing from my order, no raita"
+D-3900,2026-11-15,Google,4,
+D-3010,2026-11-15,Swiggy,5,Duplicate id - should be dropped
+D-3901,15/13/2026,Zomato,3,Row with an invalid date
