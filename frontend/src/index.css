@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 220 33% 98%;
+    --foreground: 224 71% 4%;
+    --card: 0 0% 100%;
+    --card-foreground: 224 71% 4%;
+    --primary: 252 83% 57%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 220 14% 94%;
+    --secondary-foreground: 220 39% 11%;
+    --muted: 220 14% 94%;
+    --muted-foreground: 220 9% 44%;
+    --accent: 252 100% 96%;
+    --accent-foreground: 252 83% 40%;
+    --destructive: 0 84% 58%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 220 13% 89%;
+    --input: 220 13% 86%;
+    --ring: 252 83% 57%;
+    --radius: 0.75rem;
+    --positive: 213 67% 50%;
+    --neutral: 60 2% 53%;
+    --negative: 0 73% 59%;
+  }
+
+  .dark {
+    --background: 224 40% 6%;
+    --foreground: 210 20% 96%;
+    --card: 224 35% 9%;
+    --card-foreground: 210 20% 96%;
+    --primary: 252 90% 68%;
+    --primary-foreground: 224 40% 6%;
+    --secondary: 223 25% 15%;
+    --secondary-foreground: 210 20% 96%;
+    --muted: 223 25% 15%;
+    --muted-foreground: 218 11% 65%;
+    --accent: 252 40% 20%;
+    --accent-foreground: 252 90% 85%;
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 223 22% 18%;
+    --input: 223 22% 22%;
+    --ring: 252 90% 68%;
+    --positive: 213 76% 56%;
+    --neutral: 60 2% 42%;
+    --negative: 0 72% 65%;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+  }
+}
+
+@layer utilities {
+  .bg-grid {
+    background-image: radial-gradient(hsl(var(--border)) 1px, transparent 1px);
+    background-size: 22px 22px;
+  }
+  .text-gradient {
+    @apply bg-gradient-to-r from-primary to-fuchsia-500 bg-clip-text text-transparent;
+  }
+}
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+}
